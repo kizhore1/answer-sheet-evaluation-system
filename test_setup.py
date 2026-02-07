@@ -1,9 +1,9 @@
-import sys
+﻿import sys
 import importlib
 
 print("Python:", sys.version.split()[0])
 
-packages = ["nltk", "sklearn", "streamlit"]
+packages = ["nltk", "sklearn", "streamlit", "sentence_transformers", "keybert"]
 for p in packages:
     try:
         m = importlib.import_module(p)

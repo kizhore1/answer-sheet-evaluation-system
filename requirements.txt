@@ -1,4 +1,6 @@
-nltk
+﻿nltk
 scikit-learn
 streamlit
+sentence-transformers
+keybert
 pytest
